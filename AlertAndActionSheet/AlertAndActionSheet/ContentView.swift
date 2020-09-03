@@ -15,9 +15,13 @@ struct ContentView: View {
     var body: some View {
         
         VStack{
-            alertButton.padding().background(Color.yellow)
+            alertButton
+                .padding()
+                .background(Color.yellow)
             
-            actionSheetButton.padding().background(Color.green)
+            actionSheetButton
+                .padding()
+                .background(Color.green)
         }
         
     }
