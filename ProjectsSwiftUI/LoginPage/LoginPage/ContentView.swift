@@ -37,7 +37,7 @@ struct ContentView: View {
                         .frame(height: 1)
                 }
                 .padding(.horizontal, 30)
-                .padding(.top, 50)
+                .padding(.top, 49)
                 
                 HStack(spacing: 25){
                     Button(action: {
